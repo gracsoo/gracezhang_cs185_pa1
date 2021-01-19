@@ -1,0 +1,104 @@
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: #fff;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.container{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.cat1{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cat2{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cat3{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+}
+
+.cat4{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cat5{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cat6{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cat6{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.vids{
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.mems{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+th{
+    text-align: left;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
