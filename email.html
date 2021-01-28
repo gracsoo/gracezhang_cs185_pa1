@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <header>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="text.html">Text</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a class="active" href="email.html">EmailCheck</a></li>
+        </ul>
+    </header>
+    <body>
+        <div class="container">
+            <form>
+                <p>Email Validation Check</p>
+                    <input id="text1" placeholder="email" type="text"/><br>
+                    <label id="1b1text" style="color:red; visibility: hidden">Invalid Email Address</label><br>
+                    <button onclick="validate()" type="button">Submit</button>
+            </form>
+            <script src="./emailVal.js"></script>
+        </div>
+    </body>
+</html>

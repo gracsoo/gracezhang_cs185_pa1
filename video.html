@@ -3,24 +3,27 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <header>
         <ul class="menu">
+            <li><a href="index.html">Home</a></li>
             <li><a href="text.html">Text</a></li>
             <li><a href="image.html">Image</a></li>
-            <li><a href="video.html">Video</a></li>
+            <li><a class="active" href="video.html">Video</a></li>
             <li><a href="table.html">Table</a></li>
+            <li><a href="email.html">EmailCheck</a></li>
         </ul>
     </header>
 
     <body>
-        <div class="vids">
-            <video style="padding-right:140px" width="320" height="240" controls>
-                <source src="cheetahlee.MP4" type="video/mp4">
-            </video>
-            <video style="padding-right:140px" width="320" height="240" controls>
-                <source src="softtofu.MP4" type="video/mp4">
-            </video>
-            <video width="320" height="240" controls>
-                <source src="markkkk.MP4" type="video/mp4">
-            </video>
+        <div class="popup" id="vid">
+            <video class="enlargeVideo" id="popup_vid" controls autoplay>
         </div>
+        <div class="gallery">
+            <video class="video" src="./previews/softtofu.MP4" style="height: 300px; width: 100%; max-width: 300px; cursor: pointer;" onclick="showVideo(this)"></video>
+            <video class="video" src="./previews/cheetahlee.MP4" style="height: 300px; width: 100%; max-width: 300px; cursor: pointer;" onclick="showVideo(this)"></video>
+            <video class="video" src="./previews/markkkk.MP4" style="height: 300px; width: 100%; max-width: 300px; cursor: pointer;" onclick="showVideo(this)"></video>
+            <video class="video" src="./previews/bingganbeibei.MP4" style="height: 300px; width: 100%; max-width: 300px; cursor: pointer;" onclick="showVideo(this)"></video>
+            <video class="video" src="./previews/superm.MP4" style="height: 300px; width: 100%; max-width: 300px; cursor: pointer;" onclick="showVideo(this)"></video>
+            <video class="video" src="./previews/cd.MP4" style="height: 300px; width: 100%; max-width: 300px; cursor: pointer;" onclick="showVideo(this)"></video>
+        </div>
+        <script src="./vid.js"></script>
     </body>
 </html>

@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <header>
-        <ul class="menu">
-            <li><a href="text.html">Text</a></li>
-            <li><a href="image.html">Image</a></li>
-            <li><a href="video.html">Video</a></li>
-            <li><a href="table.html">Table</a></li>
-        </ul>
-    </header>
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <div class="wrapper">
+        <header>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="text.html">Text</a></li>
+                <li><a class="active" href="image.html">Image</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="email.html">EmailCheck</a></li>
+            </ul>
+        </header>
 
-    <body>
-        <div class="row">
-            <img src="cat1.png" alt="cat1" width="250" height="250">
-            <img src="cat2.png" alt="cat2" width="300" height="250">
-            <img src="cat3.png" alt="cat3" width="300" height="250">
-        </div>
+        <body>
+            <button id="back-to-top">back to top</button>
+            <div class="gallery">
+                <div class="img-container">
+                    <img src="./previews/cat1.png" alt="cat1" data-original = "cat1.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/cat2.png" alt="cat2" data-original = "cat2.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/cat3.png" alt="cat3" data-original = "cat3.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/cat4.png" alt="cat4" data-original = "cat4.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/cat5.png" alt="cat5" data-original = "cat5.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/cat6.png" alt="cat6" data-original = "cat6.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/mark.png" alt="mark" data-original = "mark.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/marky.png" alt="marky" data-original = "marky.png">
+                </div>
+                <div class="img-container">
+                    <img src="./previews/dolls.png" alt="dolls" data-original = "dolls.png">
+                </div>
+            </div>
 
-        <div class="row">
-            <img src="cat4.png" alt="cat4" width="250" height="250">
-            <img src="cat5.png" alt="cat5" width="300" height="250">
-            <img src="cat6.png" alt="cat6" width="300" height="250">
-        </div>
-    </body>
+            <div class="modal">
+                <img src="./full/cat1.png" alt="" class="full-img" />
+            </div>
+
+            <script src="./img.js"></script>
+        </body>
+    </div>
 </html>
